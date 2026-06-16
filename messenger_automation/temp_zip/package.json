@@ -1,0 +1,19 @@
+{
+  "name": "fb-messenger-automation",
+  "version": "1.0.0",
+  "description": "Standalone Facebook Messenger automation for UID export and mass DM.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "playwright": "^1.42.1",
+    "csv-parse": "^5.5.5",
+    "csv-stringify": "^6.4.5",
+    "chalk": "^5.3.0",
+    "dotenv": "^16.4.5",
+    "fs-extra": "^11.2.0"
+  }
+}
